@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài thu hoạch </title>
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="stylesheet" href="css/reponsive.css">
+   
+</head>
+<body>
+    <div id="wallpaper">
+        <!--phần header-->
+        <header> 
+            <div class="top">
+               <div class="row">
+                <div class="top-6">
+                    <p>Chào mừng đến với shop bán hàng!</p>
+                </div>
+                <div class="top-6">
+                    <div class="top-menu">
+                        <ul>
+                            <li><a href="#">Giỏ hàng</a></li>
+                            <li><a href="#">Cửa hàng</a></li>
+                            <li><a href="#">Tài khoản</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+               </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="top1-3">
+                        <div class="logo">
+                            <a href="#"><img src="images/logo.png" alt=""></a>
+                            
+                        </div>
+                    </div>
+                    <div class="top1-6">
+                        <div class="form-seach-product">
+                            <form action="/" method="GET" role="form">
+                                <select name="" id="input" class="form-control" required="required">
+                                    <option value="">Chọn danh mục</option>
+                                    <option value="1">Điện thoại</option>
+                                    <option value="2">Máy tính bản</option>
+                                    <option value="3">Lap top</option>
+                                    <option value="4">Phụ kiện</option>
+                                </select>
+                                <div class="input-seach">
+                                    <input type="text" name="s" id="" class="form-control">
+                                    <button type="submit" ><i class="fa fa-search"></i></button>
+                                </div>
+                                <div class="clear"></div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="top1-3" style="text-align: right">
+                        <a href="#" class="icon-cart">
+                            <div class="icon">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                <span>3</span>
+                            </div>
+                            <div class="info-cart">
+                                <p>Giỏ hàng</p>
+                                <span>2.500.000đ</span>
+                            </div>
+                            <span class="clear"></span>
+                        </a>
+                    </div>   
+                </div>             
+            </div>
+            <div class="main-menu-header">
+                <div class="container">
+                    <div id="nav-menu">
+                        <ul>
+                            <li class="current-menu-item"><a href="#">Trang chủ</a></li>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li>
+                                <a href="#">Sản phẩm</a>
+                                <ul>
+                                    <li><a href="#">Điện thoại</a></li>
+                                    <li><a href="#">Máy tính bảng</a></li>
+                                    <li><a href="#">Laptop</a></li>
+                                    <li><a href="#">Sản phẩm khác</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Tuyển dụng</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--phần content-->
+        <div id="content">
+            <div class="container">
+                <div class="slider">
+                    <div class="slideshow-container">
+
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade">
+                          <img src="images/banner-01.png" style="width:100%">
+                          
+                        </div>
+                        <div class="mySlides fade">
+                          <img src="images/baner-02.png" style="width:100%">
+                          
+                        </div>
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+                    <div style="text-align:center; display: none;">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                       
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="content-3">
+                        <div class="sidebar">
+                            <div class="category-box">
+                                <h3>Danh mục sản phẩm</h3>
+                                <div class="content-cat">
+                                    <ul>
+                                        <li><i class="fa fa-angle-right"></i> <a href="#">Điện thoại</a></li>
+                                        <li><i class="fa fa-angle-right"></i> <a href="#">Máy tính bảng</a></li>
+                                        <li><i class="fa fa-angle-right"></i> <a href="#">laptop</a></li>
+                                        <li><i class="fa fa-angle-right"></i> <a href="#">Apple</a></li>
+                                        <li><i class="fa fa-angle-right"></i> <a href="#">Đồng hồ thông minh</a></li>
+                                        <li><i class="fa fa-angle-right"></i> <a href="#">Thiết bị đeo tay</a></li>
+                                        <li><i class="fa fa-angle-right"></i> <a href="#">Camera</a></li>
+                                        <li><i class="fa fa-angle-right"></i> <a href="#">Tivi</a></li>
+                                        <li><i class="fa fa-angle-right"></i> <a href="#">Sản phẩm khác</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="widget">
+                                <h3>
+                                    <i class="fa fa-bars"></i>
+                                    Tin tức
+                                </h3>
+                                <div class="content-w">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><img src="images/news.jpg" alt=""></a>
+                                            <h4><a href="#">Thương hiệu đồng hồ thông minh Sinophy của nước nào?</a></h4>
+                                            <div class="clear"></div>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/news2.jpg" alt=""></a>
+                                            <h4><a href="#">Apple phát hành iOS 14.3: Bổ sung nhiều tính năng mới, khắc phục lỗi thông báo </a></h4>
+                                            <div class="clear"></div>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/new3.jpg" alt=""></a>
+                                            <h4><a href="#">Redmi K40 lộ ảnh thực tế: Thiết kế có nhiều sự thay đổi so với Redmi K30, đặc biệt là cụm camera sau</a></h4>
+                                            <div class="clear"></div>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>                           
+                        </div>
+                    </div>
+                    <!-- sản phẩm-->
+                    <div class="content-9">
+                        <div class="product-section">
+                            <h2 class="title-product">
+                                <a href="#" class="title">Sản phẩm nổi bật</a>
+                                
+                                <div class="list-child">
+                                    <ul>
+                                        <li><a href="#">Điện thoại</a></li>
+                                        <li><a href="#">Máy tính bảng</a></li>
+                                        <li><a href="#">Laptop</a></li>
+                                        <li><a href="#">Phụ kiện</a></li>
+                                    </ul>
+                                </div>
+                                <div class="clear"></div>
+                            </h2>
+                            <div class="content-product-box">
+                                <div class="row">
+                                    <div class="content1-3">
+                                        <div class="item-product">
+                                            <div class="thumb">
+                                                <a href="#"><img src="images/sp1.jpg" alt=""></a>
+                                                <span class="sale">Giảm <br>5%</span>
+                                                <div class="action">
+                                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="info-product">
+                                                <h4><a href="#">iPhone 11 Pro Max Chính hãng</a></h4>
+                                                <div class="price">
+                                                    <span class="price-current">27.900.000 ₫</span>
+                                                    <span class="price-old"> 29.500.000 ₫</span>
+                                                </div>
+                                                <a href="#" class="view-more">Xem chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content1-3">
+                                        <div class="item-product">
+                                            <div class="thumb">
+                                                <a href="#"><img src="images/sp2.jpg" alt=""></a>
+                                                <span class="sale">Giảm <br>13%</span>
+                                                <div class="action">
+                                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="info-product">
+                                                <h4><a href="#">Samsung Galaxy Note 20 Ultra</a></h4>
+                                                <div class="price">
+                                                    <span class="price-current">25.990.000 ₫</span>
+                                                    <span class="price-old"> 29.990.000 ₫</span>
+                                                    
+                                                </div>
+                                                <a href="#" class="view-more">Xem chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content1-3">
+                                        <div class="item-product">
+                                            <div class="thumb">
+                                                <a href="#"><img src="images/sp3.jpg" alt=""></a>
+                                                <span class="sale">Giảm <br>15%</span>
+                                                <div class="action">
+                                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="info-product">
+                                                <h4><a href="#">Điện thoại iPhone Xs Max 256GB</a></h4>
+                                                <div class="price">
+                                                    <span class="price-current">28.990.000₫</span>
+                                                    <span class="price-old">33.990.000₫</span>
+                                                </div>
+                                                <a href="#" class="view-more">Xem chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content1-3">
+                                        <div class="item-product">
+                                            <div class="thumb">
+                                                <a href="#"><img src="images/sp2.png" alt=""></a>
+                                                <span class="sale">Giảm <br>10%</span>
+                                                <div class="action">
+                                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="info-product">
+                                                <h4><a href="#">Điện thoại OPPO A5 (2020) 128GB</a></h4>
+                                                <div class="price">
+                                                    <span class="price-current">4.790.000₫</span>
+                                                    <span class="price-old">4.790.000₫</span>
+                                                </div>
+                                                <a href="#" class="view-more">Xem chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  
+                                   
+                                    
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <br>
+                        <br>
+                        <div class="product-section">
+                            <h2 class="title-product">
+                                <a href="#" class="title">Điện thoại</a>
+                               
+                                <div class="list-child">
+                                    <ul>
+                                        <li><a href="#">Iphone</a></li>
+                                        <li><a href="#">Samsung</a></li>
+                                        <li><a href="#">Sony</a></li>
+                                        <li><a href="#">HTC</a></li>
+                                    </ul>
+                                </div>
+                                <div class="clear"></div>
+                            </h2>
+                            <div class="content-product-box">
+                                <div class="row">
+                                    <div class="content1-3">
+                                        <div class="item-product">
+                                            <div class="thumb">
+                                                <a href="#"><img src="images/sp.png" alt=""></a>
+                                                <span class="sale">Giảm <br>15%</span>
+                                                <div class="action">
+                                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="info-product">
+                                                <h4><a href="#">Điện thoại iPhone Xs Max 256GB</a></h4>
+                                                <div class="price">
+                                                    <span class="price-current">28.990.000₫</span>
+                                                    <span class="price-old">33.990.000₫</span>
+                                                </div>
+                                                <a href="#" class="view-more">Xem chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content1-3">
+                                        <div class="item-product">
+                                            <div class="thumb">
+                                                <a href="#"><img src="images/sp4.webp" alt=""></a>
+                                                <span class="sale">Giảm <br>9%</span>
+                                                <div class="action">
+                                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="info-product">
+                                                <h4><a href="#">iPhone 12 Pro Max 256GB Chính Hãng</a></h4>
+                                                <div class="price">
+                                                    <span class="price-current">35.000.000 ₫</span>
+                                                    <span class="price-old">37.990.000 ₫</span>
+                                                </div>
+                                                <a href="#" class="view-more">Xem chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content1-3">
+                                        <div class="item-product">
+                                            <div class="thumb">
+                                                <a href="#"><img src="images/sp5.jpg" alt=""></a>
+                                                <span class="sale">Giảm <br>16%</span>
+                                                <div class="action">
+                                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="info-product">
+                                                <h4><a href="#">Apple iPhone XR 64GB Chính hãng</a></h4>
+                                                <div class="price">
+                                                    <span class="price-current">12.590.000 ₫</span>
+                                                    <span class="price-old">14.990.000 ₫</span>
+                                                </div>
+                                                <a href="#" class="view-more">Xem chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content1-3">
+                                        <div class="item-product">
+                                            <div class="thumb">
+                                                <a href="#"><img src="images/sp6.jpg" alt=""></a>
+                                                <span class="sale">Giảm <br>40%</span>
+                                                <div class="action">
+                                                    <a href="#" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+                                                    <a href="#" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="info-product">
+                                                <h4><a href="#">Samsung Galaxy Note 10+ (Plus)</a></h4>
+                                                <div class="price">
+                                                    <span class="price-current">16.300.000 ₫</span>
+                                                    <span class="price-old">26.990.000 ₫</span>
+                                                </div>
+                                                <a href="#" class="view-more">Xem chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>
+        <!--phần footer-->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="footer-4">
+                        <div class="box-footer info-contact">
+                            <h3>Thông tin liên hệ</h3>
+                            <div class="content-contact">
+                                <p>Website chuyên cung cấp thiết bị điện tử hàng đầu Việt Nam</p>
+                                <p>
+                                    <strong>Địa chỉ:</strong>Vạn Yên-Mê Linh-Hà Nội
+                                </p>
+                                <p>
+                                    <strong>Email: </strong> daicabadao317@gmail.com
+                                </p>
+                                <p>
+                                    <strong>Điện thoại: </strong> 0965096274
+                                </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-4">
+                        <div class="box-footer info-contact">
+                            <h3>Thông tin khác</h3>
+                            <div class="content-list">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> Chính sách bảo mật</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> Chính sách đổi trả</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> Phí vẫn chuyển</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> Hướng dẫn thanh toán</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> Chương trình khuyến mãi</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-4">
+                        <div class="box-footer info-contact">
+                            <h3>Form liên hệ</h3>
+                            <div class="content-contact">
+                                <form action="/" method="GET" role="form">
+                                    <div >
+                                        <div class="form1">
+                                            <input type="text" name="" id="" class="form-control" placeholder="Họ và Tên"><br>
+                                        </div>
+                                        <div class="form1">
+                                            <input type="email" name="" id="" class="form-control" placeholder="Địa chỉ mail"><br>
+                                        </div>
+                                        <div class="form1">
+                                            <input type="text" name="" id="" class="form-control" placeholder="Số điện thoại"><br>
+                                        </div>
+                                        <div >
+                                            <input type="text" name="" id="" class="form-control" placeholder="Tiêu đề"><br>
+                                        </div>
+                                        <div class="form1">
+                                            <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn-contact">Liên hệ ngay</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Design by Đặng Thành Chung</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/main.js"></script>
+   
+</body>
+
+</html>
